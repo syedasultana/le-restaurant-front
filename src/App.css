@@ -1,0 +1,108 @@
+
+
+.App {
+  text-align: center;
+  font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+ 
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.header {
+  color: #011627;
+}
+
+#title {
+  padding: 20px;
+  margin: 20px;
+}
+
+.heading {
+  padding: 20px;
+  margin: 17px;
+  font-size: 39px;
+  font-weight: bold;
+  font-style: italic;
+  color: #e71d36;
+}
+
+.navDesign {
+  background-image: url("./Design/handsWithFood.jpg");
+}
+
+.coursesDesign {
+  background-image: url("./Design/portions.jpg");
+  font-size: 50px;
+  padding: 90px;
+  margin: 20px;
+  display: block;
+  color: #2ec4b6;
+}
+
+.menu-item {
+  color: #ff9f1c;
+  background-color: #011627;
+  padding: 20px;
+  font-size: 19px;
+}
+
+.basket-item {
+  color: #ff9f1c;
+  /* background-color: #011627; */
+  padding: 20px;
+  font-size: 19px;
+}
+
+/* css flexbox */
+
+/* boxes for Header and Login */
+.container-1 {
+  display: flex;
+}
+
+.box-1 {
+  flex: 2;
+  padding: 5px;
+  /* margin: 5px; */
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  /* border: 5px solid green; */
+}
+
+.box-2 {
+  flex: 1;
+  padding: 5px;
+  margin: 5px;
+  margin: auto;
+  /* border: 5px solid green; */
+}
+
+/* boxes for both menu items and basket items */
+.container-2 {
+  display: flex;
+}
+
+.menu-box-1 {
+  flex: 2;
+  padding: 5px;
+}
+
+.menu-box-2 {
+  flex: 1;
+}
+
+.menu-box-3 {
+  flex: 1;
+}
+
+
